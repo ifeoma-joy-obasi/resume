@@ -1,0 +1,225 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    :root{
+        font-size: 62.5%;
+        --light-blue: #8e8ed8;
+        --text-color: #272222;
+        --black:black;
+        --font-weight: 400;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    
+    }
+    
+    img{
+    max-width: 100%;
+    display: block;
+    }
+    
+    
+    .img{
+        width: 100px;
+        height:80px;
+        position: absolute;
+        top: 17px;
+        border-radius: 3px;
+    }
+    
+.parts-of-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-header{
+    position: relative;
+
+}
+
+.header{
+display: flex;
+flex-direction: column;
+gap: 0.2em;
+margin-top: 1rem;
+}
+
+.date{
+    font-size: 1.5rem;
+}
+
+.sub-little-heading{
+    font-size: 1.3rem;
+}
+
+.span-italics{
+    font-style: italic;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+
+}
+
+.secound-heading{
+    font-size: 1.5rem;
+}
+
+.first-part{
+        width: 100%;
+        padding: 0em 0px 1em 2em;
+    }
+    
+    .secound-part{
+        width: 100%;
+        padding-left: 0.5em;
+    }
+    
+    .sub-heading{
+        font-size: 1.4rem;
+        color: var(--light-blue);
+        padding-top: 1.2em;
+        margin-bottom: 0.2em;
+    }
+
+    
+.contact{
+    margin-top: 2.5rem;
+margin-bottom: 1.2em;
+}
+.professional-summary{
+    margin-bottom: 1em;
+}
+.professional-summary > ul > li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+.telephone,.message,.location{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+}
+.telephone,.message,.location > p{
+        font-size: 1.3rem;
+        color: var(--text-color);
+        font-weight: var(--font-weight);
+}
+
+.skills >ul> li{
+    font-size: 1.3rem;
+        color: var(--text-color);
+        font-weight: var(--font-weight);
+
+}
+.general-manager,.senior-executive,.experience{
+    margin-bottom: 2rem;
+}
+
+.telephone,.message,.location > i{
+        color: var(--black);
+        font-size: 1.2rem;
+}
+    li{
+    
+    font-size: 1.3rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    
+    }
+    li::marker{
+        content: “•” ;
+        font-size: 0.8rem;
+        position: absolute;
+        top: 10px;
+    }
+
+    .name{
+    margin-left: 10.5rem;
+    padding: 0.7em 1.5em 0.5em 1.5em;
+    font-size: 2rem;
+}
+
+@media (min-width: 45em) {
+    .img{
+        width: 100px;
+        height:80px;
+        position: absolute;
+        top: 15px;
+        border-radius: 3px;
+    }
+    .first-part{
+        width: 40%;
+        
+    }
+    .skills > li{
+    font-size: 1.3rem;
+        
+}
+    
+    .secound-part{
+        width: 60%;
+    }
+    .parts-of-page{
+    display: flex;
+    flex-direction: row;
+}
+.professional-summary > li{
+    font-size: 1.3rem;
+}
+
+.telephone,.message,.location > p{
+        font-size: 1.3rem;
+}
+
+.header{
+flex-direction: row;
+}
+    .name{
+    margin-left: 10rem;
+    padding: 0.7em 1.5em 0.5em 1.5em;
+    font-size: 2.5rem;
+}
+
+
+}
+
+@media (min-width: 60em) {
+
+
+    .first-part{
+        width: 20%;
+        
+    }
+    .skills >ul > li{
+    font-size: 1.2rem;
+    
+}
+    .telephone,.message,.location > p{
+        font-size: 1.2rem;
+        
+}
+    .secound-part{
+        width: 80%;
+    }
+    .parts-of-page{
+    display: flex;
+    flex-direction: row;
+}
+.professional-summary >ul > li{
+    font-size: 1.2rem;
+}
+.header{
+flex-direction: row;
+}
+
+}
+
